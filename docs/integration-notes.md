@@ -15,6 +15,7 @@
 
 ## 本仓库整理内容
 
+- 已从远端重新检出固定提交并逐目录比较。除省略上游开发者专用的 `.githooks/`、`.vscode/`、`cargo-wrapper.sh`、`clippy.toml`、`dupast.toml` 和备份文件 `plugin.rs.bak` 外，仿真器源码只有下列两类有意差异。
 - 保留固定提交的仿真器源码、ROS2 消息包、锁文件和完整运行资产。
 - ROS2-only 构建路径包含 `BevyDefault` 导入兼容处理。
 - 默认关闭 `power_rune.auto_aim_enabled` 和 `vision_test_pose`，从通用出生点和手动控制开始。
